@@ -1,0 +1,52 @@
+.header{
+    background-color: black;
+    grid-column: 1 / -1 ;
+    background-image: linear-gradient( to bottom, #4d4f4c4f, #000000),url(../images/top-view-table-full-delicious-food-composition.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: repeat(3, min-content);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center; 
+}
+@media  screen and (max-width: 510px) {
+    .header{
+        background-position-x: 10%;
+    }
+    
+}
+.header1{
+    font-size: 30px;
+    color: white;
+    justify-self: center;
+}
+.header2{
+  color: white;
+}
+
+.header-text {
+    color:orange;
+}
+
+.header-btn{
+    padding: 20px 20px;
+    border-radius: 5px;
+    color:white;
+    background-color: orange;
+    background-image: linear-gradient(40deg, white 40%, transparent 50%);
+    border: 1px solid;
+    font-family: sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    background-position: 100%;
+    background-size: 320%;
+    transition: all 0.8s;
+    justify-self: center;
+}
+
+.header-btn:hover{
+    background-color:white;
+    color:orange;
+    background-position: 0;
+
+}
